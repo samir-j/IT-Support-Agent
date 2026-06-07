@@ -1,6 +1,6 @@
 <div align="center">
 
-#  IT Helpdesk AI
+#  IT Support Agent
 
 ### Multi-Agent RAG-Powered IT Support System
 

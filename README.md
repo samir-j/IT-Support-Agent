@@ -54,13 +54,13 @@ IT Helpdesk AI is an intelligent support system that uses **Retrieval-Augmented 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        React Frontend                          │
-│              (Vite + Tailwind CSS + Zustand)                   │
+│                        React Frontend                           │
+│              (Vite + Tailwind CSS + Zustand)                    │
 └─────────────────────────┬───────────────────────────────────────┘
                           │ REST API
 ┌─────────────────────────▼───────────────────────────────────────┐
 │                     FastAPI Backend                             │
-│            (JWT Auth · Async SQLAlchemy · CORS)                │
+│            (JWT Auth · Async SQLAlchemy · CORS)                 │
 └─────────────────────────┬───────────────────────────────────────┘
                           │
 ┌─────────────────────────▼───────────────────────────────────────┐

@@ -66,15 +66,15 @@ IT Helpdesk AI is an intelligent support system that uses **Retrieval-Augmented 
 ┌─────────────────────────▼───────────────────────────────────────┐
 │                  LangGraph Orchestrator                         │
 │                                                                 │
-│   ┌──────────────┐   ┌─────────────────────┐   ┌────────────┐ │
-│   │  Retrieval    │──▶│  Troubleshooting     │──▶│  Ticket    │ │
-│   │  Agent        │   │  Agent               │   │  Agent     │ │
-│   │  (ChromaDB)   │   │  (Groq LLM)         │   │  (Auto)    │ │
-│   └──────────────┘   └─────────────────────┘   └────────────┘ │
+│   ┌──────────────┐   ┌─────────────────────┐   ┌────────────┐   │
+│      Retrieval           Troubleshooting           Ticket       │
+│      Agent        ──▶        Agent        ──▶     Agent        │
+│      (ChromaDB)            (Groq LLM)              (Auto)       │
+│   └──────────────┘   └─────────────────────┘   └────────────┘   │
 │                                                       │         │
 │                                              ┌────────▼───────┐ │
-│                                              │  Summary Agent │ │
-│                                              │  (Reports)     │ │
+│                                                 Summary Agent   │
+│                                                 (Reports)       │
 │                                              └────────────────┘ │
 └─────────────────────────────────────────────────────────────────┘
                           │
